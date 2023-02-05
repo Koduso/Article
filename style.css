@@ -1,0 +1,121 @@
+body{
+	overflow-x: hidden;
+}
+
+.container{
+	margin: 60px;
+}
+
+
+.box-text{
+	width: 433px;
+	height: 84px;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 100%;
+
+	color: #919FB6;
+
+}
+
+.box{
+
+	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 24px 32px;
+
+   margin-top: 85px;
+   margin-bottom: 85px;
+	width: 529px;
+	height: 132px;
+
+	background: rgba(255, 255, 255, 0.72);
+
+	border: 2px solid #F9FAFD;
+
+	box-shadow: 0px 20px 40px rgba(17, 62, 149, 0.06), 0px 2px 6px rgba(17, 62, 148, 0.04);
+	backdrop-filter: blur(28px);
+
+	border-radius: 16px;
+
+}
+
+.title{
+
+	width: 655px;
+    margin-bottom: 30px;
+
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 80px;
+	line-height: 100%;
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+}
+
+
+
+.background{
+	width: 100%;
+	height: 100%;
+	background: url(image26.png) no-repeat;
+}
+
+
+.image{
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+
+.card{
+    width: 500px;
+	background: #FFFFFF;
+	border: 1px solid #DBE3F0;
+	box-shadow: 0px 20px 40px rgba(17, 62, 149, 0.06), 0px 2px 6px rgba(17, 62, 148, 0.04);
+	border-radius: 20px;
+}
+
+.card-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	color: #252525;
+	margin: 12px;
+	margin-left: 0px;
+}
+
+.card-sub-title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #27303F;
+}
+
+.content{
+   padding: 24px 32px 32px;	
+}
+
+.flex{
+	display: grid;
+	grid-template-columns: 510px 510px;
+	grid-gap: 40px;
+}
+
+.badge{
+	 display: flex;
+	 flex-direction: row-reverse;
+	 padding: 4px 440px;
+}
